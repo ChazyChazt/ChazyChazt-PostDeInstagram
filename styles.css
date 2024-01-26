@@ -1,0 +1,42 @@
+body {
+width: 100%;
+height: 180vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(11, 11, 11);
+}
+.container {width: 640px;
+background: #fff;
+overflow: hidden;
+border-radius: 3px;
+}
+.top-bar {width: 95%;
+padding: 25px 16px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.profile_img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+}
+
+.main-img{width: 640px;
+margin-bottom: 15px;}
+img {width: 100%;
+height: 100%;}
+
+.footer{padding-left: 16px;
+padding-right: 16px;
+}
+.icons {display:flex;
+justify-content: space-between;
+padding: 5px 0;}
+.icons .fa {font-size: 24px;}
+.icon {font-size: 30px;}
+.encabezado {margin: 0px;
+padding-left: 5px;}
